@@ -763,20 +763,20 @@ section {
     width: 100%;
     background: #fffff0;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fffff0, #fffff0);
+    background: -webkit-linear-gradient(to right, #052F32, #052F32);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fffff0, #fffff0);
+    background: linear-gradient(to right, #052F32, #052F32);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: 11; }
   #header-navbar {
     padding-top: 15px !important;
     padding-bottom: 15px !important; }
   .navbar-transparent .navbar-collapse {
-    background: #fffff0;
+    background: #052F32;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fffff0, #fffff0);
+    background: -webkit-linear-gradient(to right, #052F32, #052F32);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fffff0, #fffff0);
+    background: linear-gradient(to right, #052F32, #052F32);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px; } }
 
