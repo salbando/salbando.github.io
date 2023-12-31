@@ -5,11 +5,11 @@
 
 @font-face {
   font-family: 'nourd_heavy';
-  src: url(https://salsbooks.com/fonts/nourd_heavy.ttf); }
+  src: url(../fonts/nourd_heavy.ttf); }
 
 @font-face {
   font-family: 'DMSans-Bold';
-  src: url(https://salsbooks.com/fonts/DMSans-Bold.ttf); }
+  src: url(../fonts/DMSans-Bold.ttf); }
 
 html, body {
   width: 100%;
