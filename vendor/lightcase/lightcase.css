@@ -21,7 +21,7 @@
 @font-face {
   font-family: 'lightcase';
   src: url("https://salsbooks.com/fonts/lightcase.eot?55356177");
-  src: url("https://salsbooks.com/fonts/lightcase.eot?55356177#iefix") format("embedded-opentype"), url("https://salbando.github.io/fonts/lightcase.woff?55356177") format("woff"), url("https://salbando.github.io/fonts/lightcase.ttf?55356177") format("truetype"), url("https://salbando.github.io/fonts/lightcase.svg?55356177#lightcase") format("svg");
+  src: url("https://salsbooks.com/fonts/lightcase.eot?55356177#iefix") format("embedded-opentype"), url("https://salsbooks.com/fonts/lightcase.woff?55356177") format("woff"), url("https://salsbooks.com/fonts/lightcase.ttf?55356177") format("truetype"), url("https://salsbooks.com/fonts/lightcase.svg?55356177#lightcase") format("svg");
   font-weight: normal;
   font-style: normal;
 }
