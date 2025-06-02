@@ -1,0 +1,325 @@
+/* Simple Updates to Polish the Original Design */
+
+/* Import modern fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700;900&display=swap');
+
+/* Keep original fonts but enhance readability */
+body {
+  font-family: 'Inter', sans-serif;
+  color: #333; /* Default dark text color for light backgrounds */
+  background-color: #f4f7f6; /* Light, neutral background for the body */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700; /* Bolder headings */
+}
+
+/* Modern navigation with better contrast */
+#header-navbar {
+  background-color: rgba(40, 40, 40, 0.9); /* Dark, slightly transparent background */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+#header-navbar .navbar-brand h3,
+#header-navbar .nav-link {
+  color: #ffffff !important; /* White text for navbar links */
+  font-weight: 500;
+}
+
+#header-navbar .nav-link:hover {
+  color: #ff9900 !important; /* Orange hover for links */
+}
+
+/* Polish the book section with better contrast */
+#Books.jumbotron {
+  background-color: #3A506B; /* Dark teal background */
+  color: #ffffff; /* White text for this section */
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#Books .display-4 {
+  font-weight: 900; /* Even bolder for main heading */
+  color: #ffffff;
+}
+
+#Books .lead {
+  color: #e0e0e0; /* Lighter shade for subheading */
+}
+
+#Books .book-card {
+  background-color: #ffffff; /* White background for cards */
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  color: #333; /* Dark text for card content */
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#Books .book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+#Books .book-card .top-banner__h2 {
+  color: #1C2541; /* Dark blue for book titles */
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#Books .book-card .brand-span {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+#Books .btn-primary {
+  background-color: #17a2b8; /* Teal for buttons like original */
+  border-color: #17a2b8;
+  font-weight: 600;
+  padding: 10px 25px;
+  color: #ffffff !important;
+}
+
+#Books .btn-primary:hover {
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
+.new-book-badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #dc3545; /* Red for new badge */
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+/* Polish the about section - FIX CONTRAST */
+#About.featurettes {
+  background-color: #ffffff; /* Clean white background */
+  padding: 60px 0;
+  color: #333; /* Ensure dark text for readability */
+}
+
+#About .brand-sal-span h4,
+#About .brand-sal-span {
+  color: #212529; /* Darker text for bio */
+}
+#About .brand-sal-span p a {
+  color: #0056b3; /* Standard link blue for contrast */
+  text-decoration: underline;
+}
+
+#About .author-photo {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Reviews section with better contrast */
+#Reviews .jumbotron {
+  background-color: #e9ecef; /* Light grey background */
+  padding: 60px 0;
+}
+
+#Reviews .section-title {
+  color: #1C2541; /* Dark blue for section title */
+}
+
+#Reviews .feature-item {
+  background-color: #ffffff;
+  color: #333;
+}
+
+#Reviews .feature-item h3 .nourd {
+  color: #1C2541; /* Dark color for review titles matching site style */
+  font-weight: 700;
+}
+
+/* Contact form improvements */
+.form-control {
+  border: 2px solid #ddd !important;
+  padding: 12px 15px !important;
+  font-size: 16px !important;
+  transition: border-color 0.3s ease !important;
+}
+
+.form-control:focus {
+  border-color: #ff9900 !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 153, 0, 0.25) !important;
+}
+
+/* Contact section with better contrast */
+#Contact.featurettes {
+  background-color: #3A506B; /* Dark teal background */
+  color: #ffffff;
+  padding: 60px 0;
+}
+
+#Contact .brand-sal-span {
+  color: #ffffff !important; /* Ensure heading is white */
+}
+
+#Contact .contact-form .form-control,
+#Contact .bg-white .form-control {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+#Contact .contact-form .btn-primary,
+#Contact .bg-white .btn-primary {
+  background-color: #17a2b8; /* Teal button like original */
+  border-color: #17a2b8;
+  font-weight: 600;
+  color: #ffffff !important;
+}
+
+#Contact .contact-form .btn-primary:hover,
+#Contact .bg-white .btn-primary:hover {
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
+#Contact .bg-white {
+  background-color: #ffffff !important; /* Ensure form background is white */
+  color: #333; /* Dark text on white form background */
+  border-radius: 8px;
+  padding: 30px !important;
+}
+
+/* Footer */
+footer {
+  background-color: #282828 !important; /* Dark background for footer */
+  color: #ffffff !important; /* White text for footer */
+  border-top: 1px solid #444 !important;
+}
+
+footer p {
+  color: #e0e0e0 !important;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  #Books .display-4 {
+    font-size: 2.5rem; /* Smaller main heading on mobile */
+  }
+
+  #About .col-lg-7, #About .col-lg-5 {
+    text-align: center; /* Center bio text and image on smaller screens */
+  }
+
+  #About .author-photo {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+/* Modern link styles */
+a {
+  color: #ff9900 !important;
+  text-decoration: none !important;
+  position: relative !important;
+  transition: all 0.3s ease !important;
+  font-weight: 500 !important;
+}
+
+a:hover {
+  color: #e68a00 !important;
+}
+
+/* Remove orange underline from book links */
+.book-image-container a::after {
+  display: none !important;
+}
+
+a:not(.btn):not(.book-image-container a)::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #ff9900;
+  transition: width 0.3s ease;
+}
+
+a:not(.btn):not(.book-image-container a):hover::after {
+  width: 100%;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fix navigation overlap */
+body {
+  padding-top: 80px;
+}
+
+#header-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Ensure particle canvas doesn't interfere with content */
+#particles-js {
+  pointer-events: none; 
+}
+
+/* Make book images consistent size and much larger */
+.book-image-container img {
+  max-width: 100% !important;
+  width: 100% !important;
+  height: 550px !important;
+  object-fit: contain !important;
+  padding: 40px !important;
+  background: #f8f9fa !important;
+  border-radius: 8px !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+/* Fix orange button text to be white */
+.btn-primary {
+  color: #ffffff !important;
+}
+
+/* Increase font sizes globally */
+body {
+  font-size: 20px !important;
+  line-height: 1.8 !important;
+}
+
+.brand-span {
+  font-size: 1.25rem !important;
+}
+
+.top-banner__h2 {
+  font-size: 2.5rem !important;
+}
+
+/* Contact heading should be dark */
+#Contact h2.brand-sal-span,
+#Contact .brand-sal-span {
+  color: #1C2541 !important;
+}
+
+/* Reviews heading should be white */
+#Reviews .section-title {
+  color: #ffffff !important;
+}
+
+#Reviews {
+  background-color: #3A506B !important;
+  color: #ffffff !important;
+}
